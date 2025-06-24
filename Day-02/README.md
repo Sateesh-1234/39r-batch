@@ -2,25 +2,25 @@
 
 ## Programming language Vs Scripting language
 
-*Programming language:*
+**Programming language:**
 
 - The language which is used to provide communication b/w programmers, and machines.
 - Programming languages use Compilers to run the code.
   
-*Scripting language:*
+**Scripting language:**
 
 - A language which is used to manipulate the browsers.
-- Scripting languages use Interpreters to exeecute the code.
+- Scripting languages use Interpreters to execute the code.
 
 ## Compiler Vs Interpreter
 
-*Compiler:*
+**Compiler:**
 
 - The software which converts the source code into machine code before execution.
 - ```C source code -> compilation -> Machine code -> Executable file (Platform dependent)```
 - ```Java source code -> compilation -> Byte code -> Executable file (Platform in-dependent)```
   
-*Interpreter:*
+**Interpreter:**
 
 - An Interpreter is a software that reads high-level language instructions, and executes them directly, typically line-by-line by converting them into low-level operations that machine can understand.
 - ```source code -> Interpretation -> converts & executes each instruction immediately```
@@ -34,7 +34,7 @@
 - **console.error()** for displaying error messages into browser's console.
 - **console.table()** for displaying tables into browser's console. Applcable only for arrays, and objects.
 - **Concatenation operator** for joining two or more strings, also adds up different numbers.
-- **Comma operator** add a space bt default among the different strings.
+- **Comma operator** add a space by default among the different argument strings.
 
 ## Variables in JavaScript
 
@@ -49,14 +49,14 @@ A Variable is a named location, or memory location which is used to store the da
 
 ## Creating Variables
 
-JavaScript provides different ways to represent variables based on how to store the data. There are 2 way as follows:
+JavaScript provides different ways to represent variables based on how to store the data. There are 2 ways as follows:
 
 - Without using keywords
 - Using keywords
   
 ### Creating Variables without using keywords
 
-- It is the oldest way of creating variables, and used in the intial days of JS evolution.
+- It is the oldest way of creating variables, and used in the initial days of JS evolution.
 - It leads to unwanted behaviour and bugs. So, we are not using them in today's life.
   
 ```javascript
@@ -75,7 +75,7 @@ name = "sateesh";
   
 ### var keyword
 
-Before ES6 versin, the only way to declare a variable in javaScript was to use the **var keyword**.
+Before ES6 version, the only way to declare a variable in javaScript was to use the **var keyword**.  
 Syntax: **var identifier = literal**
 
 ```javascript
@@ -88,7 +88,7 @@ console.log(num);
   
 ### let keyword
 
-The **let keyword** was introduced in ES6 version. If the values might change in the future, then use var keyword.
+The **let keyword** was introduced in ES6 version. If the values might change in the future, then use let keyword.  
 
 Syntax: **let identifier = literal**
 
