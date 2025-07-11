@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p class="cls">Suresh</p>
+    <p>agin</p>
+
+    <marquee class="stu" behavior="" direction="">value</marquee>
+
+    <h3 id="bp">Bhanu Prakash</h3>
+
+    <h3 id="javascript">Sateesh</h3>
+
+    <a href="#">Home</a>
+    <a href="#">About</a>
+
+    <script>
+      //   console.log(document.getElementsByClassName("cls"));
+
+      //   console.log(document.getElementById("bp"));
+
+      //   console.log(document.querySelectorAll("#bp"));
+
+      //   console.log(document.getElementById("javascript"));
+
+      //   console.log(document.firstElementChild);
+
+      //   console.log(document.firstElementChild.lastElementChild);
+
+      console.log(document.firstElementChild);
+
+      console.log(
+        document.firstElementChild.lastElementChild.firstElementChild
+      );
+      console.log(
+        document.firstElementChild.lastElementChild.firstElementChild.nodeName
+      );
+      console.log(
+        document.firstElementChild.lastElementChild.firstElementChild.className
+      );
+      console.log(
+        document.firstElementChild.lastElementChild.firstElementChild
+          .textContent
+      );
+
+      console.log(
+        (document.firstElementChild.lastElementChild.firstElementChild.className =
+          "sateesh")
+      );
+      console.log(
+        document.firstElementChild.lastElementChild.firstElementChild
+      );
+
+      let tag = document.firstElementChild.lastElementChild.firstElementChild;
+
+      console.log(tag.className);
+      tag.className = "batch";
+      console.log(tag.className);
+
+      console.log(tag.classList);
+
+      tag.classList.add("asdf");
+      console.log(tag.classList);
+      console.log(tag);
+
+      let pTags = document.getElementsByTagName("p");
+      console.log(pTags[0]);
+      console.log(pTags[1]);
+
+      pTags[1].className = "nwiers";
+      console.log(pTags[1]);
+      pTags[0].className = "value";
+      console.log(pTags[0]);
+
+      pTags[0].classList.add("fan");
+      console.log(pTags[0]);
+
+      let aTag = document.getElementsByTagName("a");
+      console.log(aTag[0]);
+
+      let acTag = document.getElementsByTagName("a");
+      console.log(acTag[1]);
+
+      // dynamic creation
+      let h1Ele = document.createElement("h1");
+
+      console.log();
+
+      //   document.firstElementChild.lastElementChild.appendChild("h1Ele");
+
+      //   document.getElementById("body").appendChild("h1Ele");
+
+      //   document.body.appendChild("h1Ele");
+
+      //   console.log(
+      //     document.getElementsByTagName("body")[0].appendChild("h1Ele")
+      //   );
+    </script>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
+
+<!-- 
+
+tag name ==> tag, p, h1
+
+class name => class attriburte's value
+
+id name ==> id attribute's value
+
+
+querytSelector & querytSelector All ==>
+tag -> tag,  p , h1, h3, a
+class  -> .class attribute's value
+id -> #id's value
+
+
+-->
